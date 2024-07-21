@@ -1,0 +1,79 @@
+[
+    {
+        "pais": "Argentina",
+        "capital" : "Buenos Aires",
+        "pista1" : "La capital empieza con la letra B",
+        "pista2": "En esta capital se encuentra el monumento nacional llamado obelisco",
+        "pista3": "En esta capital nacio Rene Favaloro el inventor del baipás coronareo"
+    },
+    {
+        "pais": "Colombia",
+        "capital" : "Bogota",
+        "pista1" : "La capital empieza con la letra B",
+        "pista2": "En esta capital se encuentra el museo del oro",
+        "pista3": "En esta capital se encuentra el centro cultural Gabriel Garcia Marquez"
+    },
+    {
+        "pais": "Bolivia",
+        "capital" : "Sucre",
+        "pista1" : "La capital empieza con la letra S",
+        "pista2": "En esta capital se encuentra la catedral basílica de nuestra señora de Guadalupe",
+        "pista3": "En esta capital se encuentra monumento nacional Castillo de la Glorieta"
+    },
+    {
+        "pais": "Chile",
+        "capital" : "Santiago de chile",
+        "pista1" : "La capital empieza con la letra S",
+        "pista2": "Es la ciudad mas grande de chile",
+        "pista3": "En esta capital se encuentra el museo del poeta Pablo Neruda"
+    },
+    {
+        "pais": "ecuador",
+        "capital" : "quito",
+        "pista1" : "La capital empieza con la letra Q",
+        "pista2": "Es considerada la capital mas alta del mundo a 2850  metros sobre el nivel del mar",
+        "pista3": "En esta capital se encuentra la famosa plaza San Francisco."
+    },
+    {
+        "pais": "Brasil",
+        "capital" : "brasilia",
+        "pista1" : "La capital empieza con la letra B",
+        "pista2": "En esta capital es sede del gobierno federal de brasil",
+        "pista3": "En esta capital se encuentra la Plaza de los 3 Poderes donde esta el Palacio de Planalto"
+    },
+    {
+        "pais": "Peru",
+        "capital" : "Lima",
+        "pista1" : "La capital empieza con la letra L",
+        "pista2": "En esta capital se encuentra el Museo Larco el cual alberga una colección de arte precolombino",
+        "pista3": "En esta capital pasa el Río Rímac"
+    },  
+    {
+        "pais": "Paraguay",
+        "capital" : "Asuncion",
+        "pista1" : "La capital empieza con la letra A",
+        "pista2": "La capital esta rodeada por el Rio Paraguay",
+        "pista3": "Es conocida por su gran Palacio de Lopez"
+    },      
+    {
+        "pais": "Surinam",
+        "capital" : "Paramaribo",
+        "pista1" : "La capital empieza con la letra P",
+        "pista2": "Es conocida por tener edificios coloniales neerlandeses",
+        "pista3": "En esta capital está el Palacio Presidencial de madera y piedra"
+    },  
+     {
+        "pais": "Uruguay",
+        "capital" : "Montevideo",
+        "pista1" : "La capital empieza con la letra M",
+        "pista2": "La capital cuenta con costas sobre el Rio de la Plata",
+        "pista3": "En esta ciudad se encuentra el Palacio Salvo"
+    },  
+    {
+        "pais": "Venezuela",
+        "capital" : "Caracas",
+        "pista1" : "La capital empieza con la letra C",
+        "pista2": "En esta capital se encuentra el Panteón nacional de venesuela",
+        "pista3": "En esta capital nacion el libertador Simon Bolivar"
+    }  
+]
