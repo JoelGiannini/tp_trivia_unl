@@ -1,11 +1,23 @@
-# TP trivia latam grupo Saturno 
+# Trabajo practico realizado por el grupo Saturno para la materia Introduccion al desarrollo.
 
-## Descripcion:
-Este es un Juego de trivia en donde el usuario se le preguntara la capital de cada pais de latinoamerica
+### Integrantes:
+
+    Matias Sandoval
+    Matias Emanuel Sosa
+    Matias Joel Giannini
+    MAURO TONINI
+    Nahir Leiva
+    Nicolàs Colman
+    PABLO ADRIAN SOTO
+
+
+## Descripcion del juego:
+Este es un Juego de trivia en donde al usuario se le preguntara la capital de cada pais de America del Sur para que responda.
 
 ## Reglamento:
-Tendras que adivinar las capitales de todos los paises de latinoamerica.
-Cada acierrto suma 5 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta 1 punto.
+Tendras que adivinar las capitales de todos los paises de America del Sur.
+Cada acierto suma 5 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta 1 punto.
+Luego se te informara tu puntuacion total, cantidad de respuestas correctas, incorrectas y la cantidad de pistas que hayas utilizado
 
 ## Gameplay
 
