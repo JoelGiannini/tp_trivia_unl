@@ -32,12 +32,12 @@ def menu():
     os.system('clear')
     print(amarillo + scenery)
     print (blanco +"Desarrollado por Grupo Saturno.\n\n")
-    print('Te damos la bienvenia a la triva de paises de America del sur')
-    letter = input('presione una tecla  para continuar...').lower()
+    print('Te damos la bienvenia a la triva de paises de America del sur\n')
+    letter = input(verde + 'Presione ENTER para continuar...').lower()
     os.system('clear')
-    print('Reglamento:\n\n')
-    print('Tendras que adivinar las capitales de todos los paises de America del sur.\nCada acierto suma 2 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta un punto\n\n')
-    pause= input(verde +'Presione una tecla  para continuar...').lower()
+    print(blanco + 'Reglamento:\n\n')
+    print('Tendras que adivinar las capitales de todos los paises de America del Sur.\nCada acierto suma 5 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta 1 punto adicional.\nLuego se te informara tu puntuacion total, cantidad de respuestas correctas, incorrectas y la cantidad de pistas que hayas utilizado.\n\n')
+    pause= input(verde +'Presione ENTER para continuar...').lower()
 
 def carga_data():
     with open("paises.json") as file:
@@ -88,6 +88,8 @@ def start():
         pais=i["pais"]
         capital=i["capital"]
         respuesta = input(blanco + f"¿Cuál es la capital de {pais}?\n")
+        while respuesta == "":
+            respuesta = input(amarillo + f"La respuesta no puede ser en blanco, por favor volvé a ingresar la respuesta.\n\n" + blanco + f"¿Cuál es la capital de {pais}?\n")
         respuesta=normalizar(respuesta)
         if respuesta.lower() == capital.lower():
             os.system("clear")
@@ -115,6 +117,8 @@ def start():
                 print (amarillo + f"{pista}")
                 print (blanco + "")
                 respuesta_ayuda = input(f"Ultimo intento.\n\n¿Cuál es la capital de {pais}?\n")
+                while respuesta_ayuda == "":
+                    respuesta_ayuda = input(amarillo + f"La respuesta no puede ser en blanco, por favor volvé a ingresar la respuesta.\n\n" + blanco + f"¿Cuál es la capital de {pais}?\n")
                 respuesta_ayuda=normalizar(respuesta_ayuda)
                 if respuesta_ayuda.lower() == capital.lower():
                     os.system("clear")
@@ -134,6 +138,8 @@ def start():
                  os.system("clear")
                  print (f"Ultimo intento para adivinar la capital.\n")
                  respuesta = input(f"¿Cuál es la capital de {pais}?\n")
+                 while respuesta == "":
+                    respuesta = input(amarillo + f"La respuesta no puede ser en blanco, por favor volvé a ingresar la respuesta.\n\n" + blanco + f"¿Cuál es la capital de {pais}?\n")
                  respuesta=normalizar(respuesta)
                  if respuesta.lower() == capital.lower():
                     os.system("clear")
@@ -150,7 +156,7 @@ def start():
                     print(blanco + f"La capital de {pais} es " + amarillo +  f"{capital}.")
                     print("")
     os.system("clear")
-    print (blanco + f"Felicidades has terminado  la trivia.\n\n")
+    print (blanco + f"Felicidades has terminado la trivia.\n\n")
     print (f"Su puntuacion total es de:\n\n") 
     print ("Puntos: " + verde + f"{puntos} " + blanco + "sobre " + verde + "60 " + blanco + "pustos.\n\n") 
     print(verde + f"Correctas: {aciertos}")

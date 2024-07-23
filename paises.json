@@ -28,7 +28,7 @@
         "pista3": "En esta capital se encuentra el museo del poeta Pablo Neruda"
     },
     {
-        "pais": "ecuador",
+        "pais": "Ecuador",
         "capital" : "quito",
         "pista1" : "La capital empieza con la letra Q",
         "pista2": "Es considerada la capital mas alta del mundo a 2850  metros sobre el nivel del mar",
@@ -62,7 +62,14 @@
         "pista2": "Es conocida por tener edificios coloniales neerlandeses",
         "pista3": "En esta capital está el Palacio Presidencial de madera y piedra"
     },  
-     {
+    {
+        "pais": "Guayana",
+        "capital" : "Georgetown",
+        "pista1" : "La capital empieza con la letra G",
+        "pista2": "Cuenta con un mercado llamado Stabroeken en el cual esta la Torre del reloj, uno de los lagures mas turisticos de esta capital",
+        "pista3": "En esta capital está la Catedral Anglicana de San Jorge"
+    },
+    {
         "pais": "Uruguay",
         "capital" : "Montevideo",
         "pista1" : "La capital empieza con la letra M",
