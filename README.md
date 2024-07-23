@@ -8,7 +8,7 @@
     MAURO TONINI
     Nahir Leiva
     Nicolàs Colman
-    PABLO ADRIAN SOTO
+    Pablo Adrian Soto
 
 
 ## Descripcion del juego:
