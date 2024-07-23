@@ -1,8 +1,10 @@
+#!/usr/bin/python3
 import random
 import os
 import json
 
 #Color de fuentes
+
 rojo=chr(27)+"[31;1m"
 amarillo=chr(27)+"[33;1m"
 verde=chr(27)+"[32;1m"
@@ -148,8 +150,13 @@ def start():
                     print(blanco + f"La capital de {pais} es " + amarillo +  f"{capital}.")
                     print("")
     os.system("clear")
-    print (f"Felicidades has terminado  la trivia.\n\nSu puntuacion total es de:\n\nPuntos: {puntos} sobre 55 puntos\nCorrectas:{aciertos}\nErroneas:{errores}\nCantidad de pistas utilizadas:{total_pistas}")
-    salida=input(f"\n\n¿Queres volver a jugar? (si/no)\n")
+    print (blanco + f"Felicidades has terminado  la trivia.\n\n")
+    print (f"Su puntuacion total es de:\n\n") 
+    print ("Puntos: " + verde + f"{puntos} " + blanco + "sobre " + verde + "55 " + blanco + "pustos.\n\n") 
+    print(verde + f"Correctas: {aciertos}")
+    print(rojo + f"Erroneas: {errores}")
+    print(amarillo + f"Cantidad de pistas utilizadas: {total_pistas}")
+    salida=input(blanco + f"\n\n¿Queres volver a jugar? (si/no)\n")
     salida=normalizar(salida)
     while (salida != "si" and salida != "no"):
         salida = input("Ingresaste una opcion incorrecta por favor ingresar (si/no):\n").strip().lower()
