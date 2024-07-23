@@ -21,5 +21,8 @@ Luego se te informara tu puntuacion total, cantidad de respuestas correctas, inc
 
 ## Gameplay:
 
-https://github.com/user-attachments/assets/369b2f02-6289-48fa-8aec-5612760f43d9
+https://github.com/user-attachments/assets/484a8134-c005-4016-ad47-863337068894
+
+
+
 
