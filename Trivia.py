@@ -32,11 +32,11 @@ def menu():
     os.system('clear')
     print(amarillo + scenery)
     print (blanco +"Desarrollado por Grupo Saturno.\n\n")
-    print('Te damos la bienvenia a la triva de paises de latinoamerica')
+    print('Te damos la bienvenia a la triva de paises de America del sur')
     letter = input('presione una tecla  para continuar...').lower()
     os.system('clear')
     print('Reglamento:\n\n')
-    print('Tendras que adivinar las capitales de todos los paises de latino america.\nCada acierrto suma 2 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta un punto\n\n')
+    print('Tendras que adivinar las capitales de todos los paises de America del sur.\nCada acierto suma 2 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta un punto\n\n')
     pause= input(verde +'Presione una tecla  para continuar...').lower()
 
 def carga_data():
@@ -152,7 +152,7 @@ def start():
     os.system("clear")
     print (blanco + f"Felicidades has terminado  la trivia.\n\n")
     print (f"Su puntuacion total es de:\n\n") 
-    print ("Puntos: " + verde + f"{puntos} " + blanco + "sobre " + verde + "55 " + blanco + "pustos.\n\n") 
+    print ("Puntos: " + verde + f"{puntos} " + blanco + "sobre " + verde + "60 " + blanco + "pustos.\n\n") 
     print(verde + f"Correctas: {aciertos}")
     print(rojo + f"Erroneas: {errores}")
     print(amarillo + f"Cantidad de pistas utilizadas: {total_pistas}")
