@@ -1,4 +1,4 @@
-# Trabajo practico realizado por el grupo Saturno para la materia Introduccion al desarrollo.
+# Trabajo practico realizado por el grupo Saturno para la materia Introduccion al desarrollo de software.
 
 ### Integrantes:
 
