@@ -19,7 +19,7 @@ Tendras que adivinar las capitales de todos los paises de America del Sur.
 Cada acierto suma 5 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta 1 punto.
 Luego se te informara tu puntuacion total, cantidad de respuestas correctas, incorrectas y la cantidad de pistas que hayas utilizado
 
-## Gameplay
+## Gameplay:
 
 https://github.com/user-attachments/assets/369b2f02-6289-48fa-8aec-5612760f43d9
 
