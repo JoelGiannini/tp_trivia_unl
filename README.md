@@ -16,7 +16,7 @@ Este es un Juego de trivia en donde al usuario se le preguntara la capital de ca
 
 ## Reglamento:
 Tendras que adivinar las capitales de todos los paises de America del Sur.
-Cada acierto suma 5 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta 1 punto.
+Cada acierto suma 5 puntos, por contrario, cada falla resta 2 puntos y si utilizamos una pista se resta 1 punto adicional.
 Luego se te informara tu puntuacion total, cantidad de respuestas correctas, incorrectas y la cantidad de pistas que hayas utilizado
 
 ## Gameplay:
