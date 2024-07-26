@@ -16,6 +16,7 @@ Saturno.
 
 ## Descripcion del juego:
 Este es un Juego de trivia en donde al usuario se le preguntara la capital de cada pais de America del Sur para que responda.
+Por cada respuesta correcta sumara puntos y se le informara su puntucacion final.
 
 ## Reglamento:
 Tendras que adivinar las capitales de todos los paises de America del Sur.
