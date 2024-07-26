@@ -9,7 +9,7 @@ Saturno.
     Matias Sandoval
     Matias Emanuel Sosa
     Matias Joel Giannini
-    MAURO TONINI
+    Mauro Tonini
     Nahir Leiva
     Nicolàs Colman
     Pablo Adrian Soto
