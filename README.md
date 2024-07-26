@@ -21,34 +21,7 @@ Luego se te informara tu puntuacion total, cantidad de respuestas correctas, inc
 
 ## Diagrama de flujo:
 
-"Inicio
-|
-V
-[Menu] -(press ENTER)-> [Reglamento]
-|        |                  |
-|        |                  V
-|        |   [Preguntar capital]
-|        |                  |
-|        |                  V
-|        |   [Verificar respuesta]
-|        |                  |
-|        |                  V
-|        |   [Mostrar resultado]
-|        |                  |
-|        |                  V
-|        |   [Quieres volver a jugar]
-|        |            /         |
-|        |           /          |
-|        |     [Si]            [No]
-|        |      |                |
-|        V      |                V
-|     [Reinicio]                [Salir]
-|                                |
-|                                V
-|                             Fin
-|
-V
-Fin"
+![diagrama](https://github.com/user-attachments/assets/64390697-55aa-46c0-a1f1-94a4ad76edc8)
 
 ## Explicacion del Diagrama de Flujo:
 
@@ -92,6 +65,7 @@ Fin: Termina el programa.
 ## Gameplay:
 
 https://github.com/user-attachments/assets/484a8134-c005-4016-ad47-863337068894
+
 
 
 
