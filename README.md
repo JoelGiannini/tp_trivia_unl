@@ -1,6 +1,6 @@
 # Trabajo practico de Introduccion al desarrollo de software. 
 
-### Grupo 
+### Grupo: 
 
 Saturno.
 
