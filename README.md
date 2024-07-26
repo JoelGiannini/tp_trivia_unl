@@ -21,7 +21,7 @@ Luego se te informara tu puntuacion total, cantidad de respuestas correctas, inc
 
 ## Diagrama de flujo:
 
-Inicio
+"Inicio
 |
 V
 [Menu] -(press ENTER)-> [Reglamento]
@@ -48,7 +48,7 @@ V
 |                             Fin
 |
 V
-Fin
+Fin"
 
 ## Explicacion del Diagrama de Flujo:
 
